@@ -2,7 +2,7 @@
   "name": "ashishworkspace",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "org",
+  "prefix": "ecom",
   "sourceRoot": "apps/ashishworkspace/src",
   "tags": [],
   "targets": {
@@ -24,6 +24,7 @@
           "apps/ashishworkspace/src/assets"
         ],
         "styles": [
+          "@angular/material/prebuilt-themes/indigo-pink.css",
           "apps/ashishworkspace/src/styles.scss"
         ],
         "scripts": []
